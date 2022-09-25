@@ -204,10 +204,7 @@
         width: 48px;
         height: 48px;
     }
-    .trip-card2-thumb {
-        height: 180px;
 
-    }
 
     /* contact page */
     .trip-card-top h4{
@@ -277,6 +274,37 @@
     .trip-contact-form-section {
         padding-bottom: 30px;
     }
+
+    .close-icon {
+        top: 2px;
+        font-size: 12px;
+    
+    }
+    .close-icon img{
+        width: 12px;
+    }
+    .btn_upload {
+        font-size: 12px;
+ 
+    }
+    .btn_upload {
+        height: 100px;
+        padding-right: 40px;
+    }
+    .preview1.it {
+        top: 22px;
+        width: 60px!important;
+        height: 60px;
+    }
+    .rmv {
+        right: 44%;
+        top: 21px;
+        font-size: 12px;
+    }
+    .trip-input-icon.trip-input-icon2 {
+        top: 12px;
+        right: 22px;
+    }
     
   
   }
@@ -333,14 +361,13 @@
       text-align: center;
       margin-bottom: 20px;
   }
-  .trip-card2-thumb {
-      height: 170px;
-  }
 
   .trip-card2-data {
       padding: 7px;
   }
-  
+  .trip-card2-thumb{
+    display: none;
+  }
   .trip-activity-top h4 {
       font-size: 16px;
       margin-bottom: 15px;
@@ -450,6 +477,14 @@
   .trip-login-wrap h3 {
     margin-bottom: 20px;
 }
+.trip-card2-thumb.plus {
+    height: 90px;
+    display: flex;
+}
+.trip-card2-thumb-resposive {
+    display: block;
+}
+
   
   }
   
@@ -461,7 +496,7 @@
     .trip-card2-data h3 {
         font-size: 9px;
     }
-   
+  
   }
   
   /*For 320-384px up Mobile Layout*/

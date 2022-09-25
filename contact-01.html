@@ -123,7 +123,8 @@
                     <div class="trip-contact-field">
                       <label>שם הפעילות<span>*</span></label>
                       <div class="trip-contact-input">
-                        <input type="text" placeholder="הזן מיקום (מילוי אוטומטי באמצעות Google)">
+                        <input class="input-remove" name="text" type="text" placeholder="הזן מיקום (מילוי אוטומטי באמצעו)" required>
+                        <button class="close-icon" type="reset"> לא הזנת מיקום<img src="images/cross.png" alt=""></button>
                         <div class="trip-input-icon">
                           <img src="images/map-icon-gray.svg" alt="">
                         </div>
@@ -136,19 +137,22 @@
                     <div class="trip-contact-field">
                       <label>כותרת של האטרקציה</label>
                       <div class="trip-contact-input">
-                        <input type="text" placeholder="הזן כותרת לאטרקציה">
+                        <input class="input-remove" type="text" name="text2" placeholder="הזן כותרת לאטרקציה" required>
+                        <button class="close-icon" type="reset"> לא הזנת מיקום<img src="images/cross.png" alt=""></button>
                       </div>
                     </div>
                     <div class="trip-contact-field">
                       <label>שם הפעילות<span>*</span></label>
                       <div class="trip-contact-input">
-                        <textarea name="textarea" id="" placeholder="תיאור האטרקציה"></textarea>
+                        <textarea class="input-remove" name="textarea" id="" placeholder="תיאור האטרקציה" required></textarea>
+                        <button class="close-icon" type="reset"> לא הזנת מיקום<img src="images/cross.png" alt=""></button>
                       </div>
                     </div>
                     <div class="trip-contact-field">
                       <label>שם הפעילות</label>
                       <div class="trip-contact-input">
-                        <input type="text" placeholder="צרף קבצים/תמונות">
+                        <input class="input-remove" type="text" placeholder="צרף קבצים/תמונות" required>
+                        <button class="close-icon" type="reset"> לא הזנת מיקום<img src="images/cross.png" alt=""></button>
                         <div class="trip-input-icon">
                           <img src="images/link.png" alt="">
                         </div>
@@ -158,7 +162,6 @@
                     <div class="trip-submit-button">
                       <button type="submit" id="submit-btn2">הוסף פעילות</button>
                     </div>
-                   
                   </div>
                 </form>
               </div>

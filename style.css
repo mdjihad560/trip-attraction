@@ -1335,6 +1335,7 @@ button.trip-login-btn {
   color: #110703;
   display: block;
   margin-bottom: 5px;
+  margin-right: 40px;
   }
   .trip-contact-field label span{
     color: #E42424;
@@ -1357,8 +1358,9 @@ button.trip-login-btn {
     font-size: 18px;
     line-height: 24px;
     text-align: right;
-    padding: 10px 50px!important;
+    padding: 10px 50px 10px 160px!important;
     color: rgba(13, 47, 41, 0.5)!important;
+
   }
   .trip-contact-input textarea{
     height: 300px;
@@ -1453,4 +1455,108 @@ button#submit-btn2 {
   line-height: 24px;
   text-align: center;
   color: #E42424;
+}
+
+.trip-card2-thumb-resposive {
+  display: none;
+}
+.trip-card2-thumb-resposive img{
+  width: 100%;
+  height: 100%;
+}
+
+.close-icon {
+  border: 1px solid transparent;
+  background-color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+  left: 13px;
+  top: 13px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: right;
+  color: #FF0000;
+}
+.close-icon img{
+  width: auto;
+}
+.input-remove:not(:valid) ~ .close-icon {
+	display: none;
+}
+
+
+/* updloade img */
+
+
+.btn_upload {
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  padding: 5px 10px;
+  height: 198px;
+  background: #FFFFFF;
+  border: 2px solid #07A0C3;
+  border-radius: 45px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: right;
+  color: #0D2F29;
+  padding-right: 66px;
+  padding-top: 13px;
+}
+
+.btn_upload:hover,
+.btn_upload:focus {
+  background-color: none;
+}
+
+
+.btn_upload input {
+  cursor: pointer;
+  height: 100%!important;
+  position: absolute;
+  filter: alpha(opacity=1);
+  -moz-opacity: 0;
+  opacity: 0;
+  left: 0;
+  top: 0;
+  z-index: 99;
+}
+
+
+.preview1.it {
+  position: absolute;
+  top: 29px;
+  width: 150px!important;
+  height: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn-rmv1{
+  display: none;
+}
+
+.rmv {
+  cursor: pointer;
+  color: #fff;
+  border-radius: 30px;
+  display: inline-block;
+  position: absolute;
+  right: 38%;
+  top: 34px;
+  z-index: 999;
+  border: navajowhite;
+  background-color: transparent;
+}
+img#ImgPreview {
+  position: absolute;
+  text-indent: 66em;
 }
